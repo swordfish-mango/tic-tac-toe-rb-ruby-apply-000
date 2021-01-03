@@ -47,7 +47,8 @@ def current_player(board)
   if board.count(' ') % 2 == 1
     "X"
   else
-  "O"
+    "O"
+  end
 end
 
 def turn(board)
